@@ -1,0 +1,156 @@
+body {
+    background-color:rgba(240,240,240,0.3);
+}
+.menu {
+    margin: 5px 10px 50px auto;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: #faefaf 0px 3px 0px;
+}
+
+#logo {
+    margin-right: 0.5%;
+}
+div#itens {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+div#itens img {
+    size: 100%;
+    margin: 20px;
+}
+
+div#itens p {
+    background-color: rgba(50, 35, 250, 0.767);
+    font-family: cursive;
+    font-size: 70%;
+    min-height: 10%;
+    max-height: 25%;
+    color: #ffffff;
+}
+
+img#merc {
+    float: right;
+    width: 10%;
+    margin: 1%;
+}
+div#ditens {
+    background-color: rgb(250, 250, 250);
+    margin: 20px 10px;
+    border:1px solid rgb(26, 11, 243) ;
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+}
+
+div#ditens #img img{
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 100px;
+    height: 100px;
+}
+
+div#ditens #img img:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+div#ditens #img {
+    background-color: #ffffff;
+    border-radius: 10px 10px;
+    height: 150px;
+}
+
+input#procura {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 75%;
+}
+
+input#procura:focus {
+    outline: none;
+}
+
+div#pro {
+    width: 350px;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+button#procurar {
+    float: right;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #b4f5bf;
+    margin-top: 2%;
+}
+
+button#procurar:focus {
+    outline: none;
+}
+
+button#procurar:hover {
+    background-color: #55f670;
+    cursor: pointer;
+}
+div#menu {
+    width: 40%;
+    height: 30px;
+    margin: 20px;
+    padding: 10px;
+    border: solid black 1px;
+    background-color: rgba(240,240,240,0.5);
+}
+
+div#busca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cat {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.cat:hover {
+    background: rgba(187, 186, 186, 0.5);
+    cursor: pointer;
+}
+
+.cab {
+    margin: 5px auto 50px auto;
+    text-align: center;
+    font-size: 200%;
+    text-shadow:#faefaf 0px 3px 0px;
+}
+
+#carrinho {
+    color: black;
+    margin-left: 30%;
+    padding: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#trocar {
+    float: right;
+    margin-top: 11%;
+    margin-right: -10%;
+    font-size: 100%;
+}

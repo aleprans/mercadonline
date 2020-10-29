@@ -1,0 +1,27 @@
+#inferior {
+    height: 80px;
+    background-color:  rgba(240,240,240,0.7);
+    margin: 50px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#inferior a {
+    color: black;
+    margin: auto 0px auto 0px;
+}
+
+#logoinf {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#logoinf img {
+    margin: 15px;
+}
+
+.rodape {
+    margin: 2px;
+}
